@@ -1,0 +1,111 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:wght@800&family=Roboto:wght@400;700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+body {
+  background: rgb(120, 65, 65);
+  color: rgb(210, 210, 210);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+img {
+    width: 150px;
+    margin: 16px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #16c79a;
+}
+
+h2 {
+    Font-family: 'Raleway', sans-serif;
+    color: #16c79a;
+}
+
+h3 {
+    color: #ec4646;
+}
+
+span {
+    color: #a28bc9;
+}
+
+a {
+    color: #79ffdd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ec4646;
+    text-decoration: none;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.card-gray {
+  width: 80%;
+  background-color:rgb(30, 30, 30);
+  padding: 8px;
+  border: 1px solid rgb(220, 205, 205);
+  border-radius: 5px;
+  margin: 8px auto;
+}
+
+/* To design your lists of icons, change the block behavior of list items by inlining them. */
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* Even inline, a list <ul> has some padding-left and bullet points -
+   remove to have a nicer looking list. */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.icon-links {
+    font-size: 22px;
+    text-align: center;
+}
+.profile-header {
+    display: flex;
+    align-items: center;
+}
+
+ /* TO DO
+Setting these font rules at the body-level
+will apply them on all basic text tags (<p>, <li>, etc.)...
+
+Pick a nice background-color, OK
+font-family OK
+color OK
+font-size OK
+line-height for the <body>. OK
+
+Headers
+Choose a nice color OK
+and font-family for headers (<h1>, <h2>, <h3>) OK
+
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant. If you check out any website
+(Medium, Airbnb, etc.), you’ll see that the font-size of their headers
+is quite small. - Revisit!
+
+
+Links
+Change the color & text-decoration of all the links OK
+Add hover effects to links using the pseudo-class a:hover. OK */
